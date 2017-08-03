@@ -40,4 +40,4 @@ p {
   margin: 0 auto;
 }  */
 ul{ list-style-type: circle; text-align: justify}
-/* li{} */
+li{text-decoration: underline} 
