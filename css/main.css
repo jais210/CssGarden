@@ -22,24 +22,11 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  font-size: 20px;
-  text-align: left;
-}
 
 p {
   text-align: justify;
 }
 
-
-ul {
-  list-style-type: circle;
-  text-align: justify
-}
-
-li {
-  text-decoration: underline
-}
 
 a:link {
   font-weight: bold;
