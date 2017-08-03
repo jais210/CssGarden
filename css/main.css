@@ -1,9 +1,7 @@
-
 body {
   padding-left: 15em;
   padding-right: 15em;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif, "Times New Roman", Times, serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, "Times New Roman", Times, serif;
   color: #f08080;
   background-color: #faebd7;
 }
@@ -24,11 +22,13 @@ h3 {
   font-size: 20px;
   text-align: left;
 }
+
 p {
   text-align: justify;
 }
 
- /* #css-zen-garden {
+
+/* #css-zen-garden {
   background-color: #f2f2f2;
   background-image: url(https://lh4.googleusercontent.com/-P-uKwe2FDGU/VDnHT21jkoI/AAAAAAAALkI/i3gzlB0Z5Hg/s450/fondo1.png),
     url(https://lh6.googleusercontent.com/-7cX2R1ojPR8/VDnLWzxlAMI/AAAAAAAALkY/FYC-_SP-P-w/s450/fondo2.png);
@@ -39,5 +39,31 @@ p {
   position: relative;
   margin: 0 auto;
 }  */
-ul{ list-style-type: circle; text-align: justify}
-li{text-decoration: underline} 
+
+ul {
+  list-style-type: circle;
+  text-align: justify
+}
+
+li {
+  text-decoration: underline
+}
+
+a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #B7A5DF;
+}
+
+a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #D4CDDC;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+  color: #9685BA;
+}
